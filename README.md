@@ -43,12 +43,12 @@ spring.datasource.password={PostgreSql Server Password}
 ### Kurulum - Setup
 ```
 $ git clone https://github.com/keremdurak/education-center.git
-$ cd movie/
-$ sudo apt-get install maven
+$ cd education-center/
+$ install maven
 $ mvn -N io.takari:maven:wrapper
 $ ./mvnw package
 $ cd target/
-$ java -jar movie-0.0.1-SNAPSHOT.jar
+$ java -jar education-center-0.0.1-SNAPSHOT.jar
 ```
 
 ### Run & Build
